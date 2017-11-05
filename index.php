@@ -1,4 +1,4 @@
-﻿<!-- index.php -->
+<!-- index.php -->
 <?php 
 
 get_header();
@@ -33,5 +33,5 @@ if (have_posts()) :
 		
 	endif;
 	
-get_footer();
+//get_footer();
 ?>
