@@ -77,5 +77,5 @@
 	<?php
 	echo do_shortcode("[post_grid id='273']");
 	
-	get_footer();
+	//get_footer();
 	?>

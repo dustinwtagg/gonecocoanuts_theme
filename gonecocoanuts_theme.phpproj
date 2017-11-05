@@ -1,0 +1,196 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Name>gonecocoanuts_theme</Name>
+    <ProjectGuid>13eb8326-e065-4849-bab1-37ebed4862c4</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace>
+    </RootNamespace>
+    <ProjectTypeGuids>{A0786B88-2ADB-4C21-ABE8-AA2D79766269}</ProjectTypeGuids>
+    <AssemblyName>gonecocoanuts_theme</AssemblyName>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <IncludeDebugInformation>true</IncludeDebugInformation>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <IncludeDebugInformation>false</IncludeDebugInformation>
+  </PropertyGroup>
+  <ItemGroup>
+    <Content Include=".git\config" />
+    <Content Include=".git\description" />
+    <Content Include=".git\HEAD" />
+    <Content Include=".git\hooks\README.sample" />
+    <Content Include=".git\index" />
+    <Content Include=".git\info\exclude" />
+    <Content Include=".git\logs\HEAD" />
+    <Content Include=".git\logs\refs\heads\master" />
+    <Content Include=".git\logs\refs\remotes\origin\master" />
+    <Content Include=".git\objects\pack\pack-fdb04104fd2fa299a558decb7ad9df8c43349b87.idx" />
+    <Content Include=".git\objects\pack\pack-fdb04104fd2fa299a558decb7ad9df8c43349b87.pack" />
+    <Content Include=".git\refs\heads\master" />
+    <Content Include=".git\refs\remotes\origin\master" />
+    <Content Include="awebooking.plugin.zip" />
+    <Content Include="Document\.DS_Store" />
+    <Content Include="Document\css\font-awesome\css\font-awesome.css" />
+    <Content Include="Document\css\font-awesome\css\font-awesome.min.css" />
+    <Content Include="Document\css\font-awesome\fonts\fontawesome-webfont.eot" />
+    <Content Include="Document\css\font-awesome\fonts\fontawesome-webfont.svg" />
+    <Content Include="Document\css\font-awesome\fonts\fontawesome-webfont.ttf" />
+    <Content Include="Document\css\font-awesome\fonts\fontawesome-webfont.woff" />
+    <Content Include="Document\css\font-awesome\fonts\FontAwesome.otf" />
+    <Content Include="Document\css\font-awesome\less\bordered-pulled.less" />
+    <Content Include="Document\css\font-awesome\less\core.less" />
+    <Content Include="Document\css\font-awesome\less\fixed-width.less" />
+    <Content Include="Document\css\font-awesome\less\font-awesome.less" />
+    <Content Include="Document\css\font-awesome\less\icons.less" />
+    <Content Include="Document\css\font-awesome\less\larger.less" />
+    <Content Include="Document\css\font-awesome\less\list.less" />
+    <Content Include="Document\css\font-awesome\less\mixins.less" />
+    <Content Include="Document\css\font-awesome\less\path.less" />
+    <Content Include="Document\css\font-awesome\less\rotated-flipped.less" />
+    <Content Include="Document\css\font-awesome\less\spinning.less" />
+    <Content Include="Document\css\font-awesome\less\stacked.less" />
+    <Content Include="Document\css\font-awesome\less\variables.less" />
+    <Content Include="Document\css\font-awesome\scss\font-awesome.scss" />
+    <Content Include="Document\css\font-awesome\scss\_bordered-pulled.scss" />
+    <Content Include="Document\css\font-awesome\scss\_core.scss" />
+    <Content Include="Document\css\font-awesome\scss\_fixed-width.scss" />
+    <Content Include="Document\css\font-awesome\scss\_icons.scss" />
+    <Content Include="Document\css\font-awesome\scss\_larger.scss" />
+    <Content Include="Document\css\font-awesome\scss\_list.scss" />
+    <Content Include="Document\css\font-awesome\scss\_mixins.scss" />
+    <Content Include="Document\css\font-awesome\scss\_path.scss" />
+    <Content Include="Document\css\font-awesome\scss\_rotated-flipped.scss" />
+    <Content Include="Document\css\font-awesome\scss\_spinning.scss" />
+    <Content Include="Document\css\font-awesome\scss\_stacked.scss" />
+    <Content Include="Document\css\font-awesome\scss\_variables.scss" />
+    <Content Include="Document\css\style.css" />
+    <Content Include="Document\images\.DS_Store" />
+    <Content Include="Document\images\addnewpackage.png" />
+    <Content Include="Document\images\addnewroomtype.png" />
+    <Content Include="Document\images\book.png" />
+    <Content Include="Document\images\bookingcheck.png" />
+    <Content Include="Document\images\createnewbooking.png" />
+    <Content Include="Document\images\extraprice.png" />
+    <Content Include="Document\images\gallery-featureimage-roomtype.png" />
+    <Content Include="Document\images\inforoom_files\autogrowinput.js" />
+    <Content Include="Document\images\inforoom_files\cga.js" />
+    <Content Include="Document\images\inforoom_files\detect.js" />
+    <Content Include="Document\images\inforoom_files\draggable.js" />
+    <Content Include="Document\images\inforoom_files\edit.js" />
+    <Content Include="Document\images\inforoom_files\jqModal.js" />
+    <Content Include="Document\images\inforoom_files\jquery-ui.js" />
+    <Content Include="Document\images\inforoom_files\jquery.js" />
+    <Content Include="Document\images\inforoom_files\jquery_002.js" />
+    <Content Include="Document\images\inforoom_files\jquery_003.js" />
+    <Content Include="Document\images\inforoom_files\main.css" />
+    <Content Include="Document\images\inforoom_files\md5.js" />
+    <Content Include="Document\images\inforoom_files\resizable.js" />
+    <Content Include="Document\images\listroomtype.png" />
+    <Content Include="Document\images\loco1.png" />
+    <Content Include="Document\images\loco2.png" />
+    <Content Include="Document\images\loco3.png" />
+    <Content Include="Document\images\loco4.png" />
+    <Content Include="Document\images\name-description-roomtype.png" />
+    <Content Include="Document\images\po1.png" />
+    <Content Include="Document\images\po2.png" />
+    <Content Include="Document\images\po3.png" />
+    <Content Include="Document\images\po4.png" />
+    <Content Include="Document\images\po5.png" />
+    <Content Include="Document\images\publish-roomtype.png" />
+    <Content Include="Document\images\roomdata-discount.png" />
+    <Content Include="Document\images\roomdata-general.png" />
+    <Content Include="Document\images\roomdata-shortdesc.png" />
+    <Content Include="Document\images\roommanage_upadte.png" />
+    <Content Include="Document\images\setting-bookingform.png" />
+    <Content Include="Document\images\setting-checkout-cf7.png" />
+    <Content Include="Document\images\setting-checkout.png" />
+    <Content Include="Document\images\setting-customcolor.png" />
+    <Content Include="Document\images\setting-general.png" />
+    <Content Include="Document\images\setting-pages.png" />
+    <Content Include="Document\images\setting.png" />
+    <Content Include="Document\images\shortcode.png" />
+    <Content Include="Document\images\tran1.png" />
+    <Content Include="Document\images\updatepricing_manage.png" />
+    <Content Include="Document\images\widget.png" />
+    <Content Include="Document\img\Background1.png" />
+    <Content Include="Document\img\Background2.png" />
+    <Content Include="Document\img\Background3.png" />
+    <Content Include="Document\index.html" />
+    <Content Include="Document\js\custom.js" />
+    <Content Include="Document\js\jquery-1.10.2.min.js" />
+    <Content Include="Document\js\jquery.plugins.js" />
+    <Content Include="Document\Licensing\GPL.txt" />
+    <Content Include="Document\Licensing\README_License.txt" />
+    <Content Include="error_log" />
+    <Content Include="gestures-master.zip" />
+    <Content Include="images\BackgroundIMG1 - Copy.jpg" />
+    <Content Include="images\BackgroundIMG1.jpg" />
+    <Content Include="images\Bocas-Del-Toro-map.jpg" />
+    <Content Include="images\Bocas-Del-Toro-map2" />
+    <Content Include="images\bocas-del-toro.jpg" />
+    <Content Include="images\coconut.jpg" />
+    <Content Include="images\dolphins.jpg" />
+    <Content Include="images\gif.php.gif" />
+    <Content Include="images\logo.png" />
+    <Content Include="images\luxury.jpg" />
+    <Content Include="images\menu3.png" />
+    <Content Include="images\menu3_white.png" />
+    <Content Include="images\menu4.png" />
+    <Content Include="images\menu4_white.png" />
+    <Content Include="images\next.png" />
+    <Content Include="images\overview.jpg" />
+    <Content Include="images\president.JPG" />
+    <Content Include="images\Thumbs.db" />
+    <Content Include="jquery-3.1.1.min.js" />
+    <Content Include="README.md" />
+    <Content Include="robots.txt" />
+    <Content Include="sitemap.xml" />
+    <Content Include="style.css" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="awe-booking-template.php" />
+    <Compile Include="footer-special-templete.php" />
+    <Compile Include="footer.php" />
+    <Compile Include="functions.php" />
+    <Compile Include="header.php" />
+    <Compile Include="index.php" />
+    <Compile Include="page-home.php" />
+    <Compile Include="page-rooms.php" />
+    <Compile Include="page.php" />
+    <Compile Include="single.php" />
+    <Compile Include="woocommerce.php" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include=".git\" />
+    <Folder Include=".git\hooks\" />
+    <Folder Include=".git\info\" />
+    <Folder Include=".git\logs\" />
+    <Folder Include=".git\logs\refs\" />
+    <Folder Include=".git\logs\refs\heads\" />
+    <Folder Include=".git\logs\refs\remotes\" />
+    <Folder Include=".git\logs\refs\remotes\origin\" />
+    <Folder Include=".git\objects\" />
+    <Folder Include=".git\objects\info\" />
+    <Folder Include=".git\objects\pack\" />
+    <Folder Include=".git\refs\" />
+    <Folder Include=".git\refs\heads\" />
+    <Folder Include=".git\refs\remotes\" />
+    <Folder Include=".git\refs\remotes\origin\" />
+    <Folder Include=".git\refs\tags\" />
+    <Folder Include="Document\" />
+    <Folder Include="Document\css\" />
+    <Folder Include="Document\css\font-awesome\" />
+    <Folder Include="Document\css\font-awesome\css\" />
+    <Folder Include="Document\css\font-awesome\fonts\" />
+    <Folder Include="Document\css\font-awesome\less\" />
+    <Folder Include="Document\css\font-awesome\scss\" />
+    <Folder Include="Document\images\" />
+    <Folder Include="Document\images\inforoom_files\" />
+    <Folder Include="Document\img\" />
+    <Folder Include="Document\js\" />
+    <Folder Include="Document\Licensing\" />
+    <Folder Include="images\" />
+  </ItemGroup>
+</Project>
