@@ -15,7 +15,7 @@
 	</head>
 	
 <body <?php body_class(); ?>>
-		
+		 
 	<div class="banner"> 
 		<!-- cocoa nut banner css defined -->
 	</div>
