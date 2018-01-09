@@ -16,7 +16,7 @@
 	
 <body <?php body_class(); ?>>
 		
-	<div class="banner">
+	<div class="banner"> 
 		<!-- cocoa nut banner css defined -->
 	</div>
 	<!-- site-nav -->
